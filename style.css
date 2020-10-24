@@ -2,7 +2,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:hsl(0, 0%, 98%);
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 .header-txt{
     display: flex;
@@ -28,6 +33,7 @@ body{
 .card-collection{
     display: flex;
     flex-direction: row;
+    place-self: center;
 }
 .card{
     display: flex;
@@ -82,6 +88,11 @@ body{
         background-color:hsl(0, 0%, 98%);
         padding: 2rem 8rem 2rem 8rem;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+    }
     .header-txt{
         display: flex;
         flex-direction: column;
@@ -106,7 +117,7 @@ body{
     .card-collection{
         display: flex;
         flex-direction: column;
-        margin-left: 5.6rem;
+        place-self: center;
     }
     .card{
         display: flex;
