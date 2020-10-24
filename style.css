@@ -1,0 +1,155 @@
+@media only screen and (min-width:901px){
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:hsl(0, 0%, 98%);
+    padding: 2rem 8rem 2rem 8rem;
+}
+.header-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.header-txt h3{
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 200;
+    font-size: x-large;
+    color: hsl(234, 12%, 34%);
+}
+.header-txt h3:nth-child(2){
+    font-weight: 600;
+    font-size: x-large;
+}
+.header-txt p{
+    color:  hsl(229, 6%, 66%);
+    font-size: small;
+}
+.card-collection{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 0.4rem;
+    border-top:0.33rem outset;
+}
+.card h4{
+    margin: 0;
+    color:hsl(234, 12%, 34%);
+    font-size: larger;
+}
+.card p{
+    color:  hsl(229, 6%, 66%);
+}
+.card img{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.team-builder{
+    border-color: hsl(0, 78%, 62%);
+    width: max-content;
+    height: max-content;
+}
+.supervisor{
+    border-color: hsl(180, 62%, 55%);
+    width: max-content;
+    height: max-content;
+    margin-top: 8rem;
+}
+.karma{
+    border-color: hsl(34, 97%, 64%);
+    width: max-content;
+    height: max-content;
+}
+.calculator{
+    border-color: hsl(212, 86%, 64%);
+    width: max-content;
+    height: max-content;
+    margin-top: 8rem;
+}
+}
+@media only screen and (max-width:900px){
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color:hsl(0, 0%, 98%);
+        padding: 2rem 8rem 2rem 8rem;
+    }
+    .header-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-txt h3{
+        margin: 0;
+        line-height: 1.2;
+        font-weight: 200;
+        font-size: x-large;
+        color: hsl(234, 12%, 34%);
+    }
+    .header-txt h3:nth-child(2){
+        font-weight: 600;
+        font-size: x-large;
+    }
+    .header-txt p{
+        color:  hsl(229, 6%, 66%);
+        font-size: small;
+    }
+    .card-collection{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.6rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 2rem;
+        background-color: white;
+        margin: 2rem;
+        border-radius: 0.4rem;
+        border-top:0.33rem outset;
+    }
+    .card h4{
+        margin: 0;
+        color:hsl(234, 12%, 34%);
+        font-size: larger;
+    }
+    .card p{
+        color:  hsl(229, 6%, 66%);
+    }
+    .card img{
+        float: right;
+    }
+    .clear{
+        clear: both;
+    }
+    .team-builder{
+        border-color: hsl(0, 78%, 62%);
+        width: max-content;
+        height: max-content;
+    }
+    .supervisor{
+        border-color: hsl(180, 62%, 55%);
+        width: max-content;
+        height: max-content;
+    }
+    .karma{
+        border-color: hsl(34, 97%, 64%);
+        width: max-content;
+        height: max-content;
+    }
+    .calculator{
+        border-color: hsl(212, 86%, 64%);
+        width: max-content;
+        height: max-content;
+    }
+}
