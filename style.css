@@ -93,17 +93,18 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: fit-content;
     }
     .header-txt h3{
         margin: 0;
         line-height: 1.2;
         font-weight: 200;
-        font-size: x-large;
+        font-size: large;
         color: hsl(234, 12%, 34%);
     }
     .header-txt h3:nth-child(2){
         font-weight: 600;
-        font-size: x-large;
+        font-size: large;
     }
     .header-txt p{
         color:  hsl(229, 6%, 66%);
